@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body{
+            background-color:skyblue;
+        }
+
+        span{
+            color:orange;
+        }
+
+        sup{
+            color:red;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+                <!-- container start -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="" method="POST">
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                                   <!-- First name -->
+                                        <label for="firstname">First Name<sup>*</sup>
+                                        </label>
+                                        <input type="text" class="form-control" id="firstname" required>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                                   <!-- Last name -->
+                                        <label for="lastname">Last Name<sup>*</sup></label>
+                                        <input type="text" class="form-control" id="lastname" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                                    <!-- Email -->
+                                        <label for="email">Email<sup>*</sup></label>
+                                        <input type="email" class="form-control" id="email" required>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                                    <!-- Experience rating -->
+                                        <h6>Your Experience<sup>*</sup></h6>
+                                        <span class="fa fa-star" aria-hidden="true"></span>
+                                        <span class="fa fa-star" aria-hidden="true"></span>
+                                        <span class="fa fa-star" aria-hidden="true"></span>
+                                        <span class="fa fa-star" aria-hidden="true"></span>
+                                        <span class="fa fa-star" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                            </div>
+                                              <!-- 1st table start -->
+                            <div class="form-group table-responsive">
+                                <h6>How satisfied are you with<sup>*</sup></h6>
+                                <table class="table table-bordered table-hover bg-primary text-white my-4 text-center">
+                                    <thead class="bg-warning">
+                                        <tr>
+                                            <th></th>
+                                            <th>Very Unsatisfied</th>
+                                            <th>Unsatisfied</th>
+                                            <th>Neutral</th>
+                                            <th>Satisfied</th>
+                                            <th>Very Satisfied</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                          <td>Purchase</td>
+                                          <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio1" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio1" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio1" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio1" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio1" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Service</td>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="blankRadio2" id="blankRadio" value="option1">
+        
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="blankRadio2" id="blankRadio" value="option1">
+        
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="blankRadio2" id="blankRadio" value="option1">
+        
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="blankRadio2" id="blankRadio" value="option1">
+        
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="blankRadio2" id="blankRadio" value="option1">
+        
+                                                </div>
+                                            </td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Company Overall</td>
+                                        
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio3" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio3" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio3" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio3" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio3" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                             <!-- 1st table end -->
+                            </div>
+                                             
+
+                                             <!-- 2nd table start -->
+                            <div class="form-group table-responsive">
+                                <h6>How likely are you to<sup>*</sup></h6>
+                                <table class="table table-bordered table-hover bg-primary text-white my-4 text-center">
+                                    <thead class="bg-warning">
+                                        <tr>
+                                            <th></th>
+                                            <th>Very Unlikely</th>
+                                            <th>Unlikely</th>
+                                            <th>Neutral</th>
+                                            <th>likely</th>
+                                            <th>Very likely</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                          <td>Buy from us again</td>
+                                          <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio1" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio1" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio1" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio1" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio1" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Recommended our product to others</td>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="blankRadio2" id="blankRadio" value="option1">
+        
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="blankRadio2" id="blankRadio" value="option1">
+        
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="blankRadio2" id="blankRadio" value="option1">
+        
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="blankRadio2" id="blankRadio" value="option1">
+        
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio"
+                                                        name="blankRadio2" id="blankRadio" value="option1">
+        
+                                                </div>
+                                            </td>
+                                        </tr>
+    
+                                        <tr>
+                                            <td>Recommended our company to others</td>
+                                        
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio3" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio3" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio3" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio3" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio"
+                                                    name="blankRadio3" id="blankRadio" value="option1">
+    
+                                            </div>
+                                        </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- 2nd table end -->
+                            </div>
+                                               <!-- message box start -->
+                            <div class="form-group">
+                                <label for="message"><h6>Additional comments or suggestions</h6></label>
+                                <textarea name="message" id="message" rows="5" class="form-control"></textarea>
+                            </div>
+                                                  <!-- message box end -->
+
+                                                  <!-- button -->
+                            <div class="form-group text-center">
+                                <button type="submit" class="btn btn-success">Submit</button>
+                            </div>
+                           
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+                 <!-- container end -->
+
+
+
+
+</body>
+<script src="./assets/js/rating.js"></script>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+
+</html>
